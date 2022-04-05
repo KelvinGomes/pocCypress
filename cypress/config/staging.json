@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://manager-staging.sensedia-eng.com/",
+    "env": {
+        "user": "root",
+        "password": "mcdkncdw02"
+    }
+}

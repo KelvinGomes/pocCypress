@@ -1,12 +1,14 @@
 {
-  "name": "pocCypress",
+  "name": "poc-cypress",
   "version": "1.0.0",
   "description": "Estudo Cypress testes de integração e E2E",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "open": "cypress open",
-    "run": "cypress run"
+    "cy:open": "cypress open",
+    "cy:run:ephemeral": "cypress run --env configFile=ephemeral",
+    "cy:run:testing": "cypress run --env configFile=testing",
+    "cy:run:staging": "cypress run --env configFile=staging"
   },
   "repository": {
     "type": "git",
