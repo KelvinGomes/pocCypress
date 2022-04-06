@@ -29,3 +29,7 @@ module.exports = (on, config) => {
     allureWriter(on, config);
     return config;
 };
+
+// module.exports = (on, config) => {
+//   require('cypress-mochawesome-reporter/plugin')(on);
+// };

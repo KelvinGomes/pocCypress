@@ -1,0 +1,171 @@
+{
+  "uid" : "5fb470679895eb6f",
+  "name" : "Create attribute",
+  "fullName" : "Create attribute",
+  "historyId" : "51c9ce6a28e2a6f61dd6983025e8855d",
+  "time" : {
+    "start" : 1649260404273,
+    "stop" : 1649260405403,
+    "duration" : 1130
+  },
+  "status" : "failed",
+  "statusMessage" : "expected 201 to equal 200",
+  "statusTrace" : "AssertionError: expected 201 to equal 200\n    at Context.eval (https://ephemeral-manager-governance.sensedia-eng.com/__cypress/tests?p=cypress/integration/postAttributes.spec.js:201:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 201 to equal 200",
+    "statusTrace" : "AssertionError: expected 201 to equal 200\n    at Context.eval (https://ephemeral-manager-governance.sensedia-eng.com/__cypress/tests?p=cypress/integration/postAttributes.spec.js:201:32)",
+    "steps" : [ {
+      "name" : "POST 201 /api-governance/api/v3/attributes/",
+      "time" : {
+        "start" : 1649260404311,
+        "stop" : 1649260405189,
+        "duration" : 878
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as (\"response\")",
+      "time" : {
+        "start" : 1649260405189,
+        "stop" : 1649260405191,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get @response",
+      "time" : {
+        "start" : 1649260405191,
+        "stop" : 1649260405193,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **201** to equal **200**",
+      "time" : {
+        "start" : 1649260405402,
+        "stop" : 1649260405402,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "201"
+      }, {
+        "name" : "expected",
+        "value" : "200"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2e21f089a16d0000",
+      "name" : "postAttributes.spec.js:2022-04-06T15:53:25.221Z",
+      "source" : "2e21f089a16d0000.png",
+      "type" : "image/png",
+      "size" : 65198
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "PostAttributes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "188d89bd1d082ce9",
+      "status" : "failed",
+      "statusDetails" : "expected 201 to equal 200",
+      "time" : {
+        "start" : 1649260367398,
+        "stop" : 1649260368542,
+        "duration" : 1144
+      }
+    }, {
+      "uid" : "b3964abd4c5160e6",
+      "status" : "failed",
+      "statusDetails" : "expected 201 to equal 200",
+      "time" : {
+        "start" : 1649259741080,
+        "stop" : 1649259742144,
+        "duration" : 1064
+      }
+    }, {
+      "uid" : "8d327a3d5e7acbaa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649259654259,
+        "stop" : 1649259655157,
+        "duration" : 898
+      }
+    }, {
+      "uid" : "d9e0fc4403841043",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649259493108,
+        "stop" : 1649259494100,
+        "duration" : 992
+      }
+    }, {
+      "uid" : "eadac9077bb233c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649259369763,
+        "stop" : 1649259370590,
+        "duration" : 827
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5fb470679895eb6f.json",
+  "parameterValues" : [ ]
+}

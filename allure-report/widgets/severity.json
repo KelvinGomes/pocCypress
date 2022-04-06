@@ -1,0 +1,31 @@
+[ {
+  "uid" : "31090c29869ca10d",
+  "name" : "Create attribute with invalid token",
+  "time" : {
+    "start" : 1649260405450,
+    "stop" : 1649260405647,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5671e23e1b8da86",
+  "name" : "Create attribute no name",
+  "time" : {
+    "start" : 1649260405722,
+    "stop" : 1649260405925,
+    "duration" : 203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fb470679895eb6f",
+  "name" : "Create attribute",
+  "time" : {
+    "start" : 1649260404273,
+    "stop" : 1649260405403,
+    "duration" : 1130
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

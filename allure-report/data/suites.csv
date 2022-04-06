@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Wed Apr 06 12:53:24 BRT 2022","Wed Apr 06 12:53:25 BRT 2022","1130","","PostAttributes","","","","Create attribute",""
+"passed","Wed Apr 06 12:53:25 BRT 2022","Wed Apr 06 12:53:25 BRT 2022","197","","PostAttributes","","","","Create attribute with invalid token",""
+"passed","Wed Apr 06 12:53:25 BRT 2022","Wed Apr 06 12:53:25 BRT 2022","203","","PostAttributes","","","","Create attribute no name",""

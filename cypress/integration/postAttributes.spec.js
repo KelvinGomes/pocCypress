@@ -23,7 +23,7 @@ describe("PostAttributes", function () {
             },
         }).as("response");
         cy.get("@response").then((res) => {
-            expect(res.status).to.be.equal(201);
+            expect(res.status).to.be.equal(200);
         });
     });
     it("Create attribute with invalid token", function () {

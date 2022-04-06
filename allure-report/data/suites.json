@@ -1,0 +1,60 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "PostAttributes",
+    "children" : [ {
+      "name" : "Create attribute",
+      "uid" : "5fb470679895eb6f",
+      "parentUid" : "95758d27e50040cf663451d6d6036e83",
+      "status" : "failed",
+      "time" : {
+        "start" : 1649260404273,
+        "stop" : 1649260405403,
+        "duration" : 1130
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create attribute with invalid token",
+      "uid" : "31090c29869ca10d",
+      "parentUid" : "95758d27e50040cf663451d6d6036e83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649260405450,
+        "stop" : 1649260405647,
+        "duration" : 197
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create attribute no name",
+      "uid" : "b5671e23e1b8da86",
+      "parentUid" : "95758d27e50040cf663451d6d6036e83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649260405722,
+        "stop" : 1649260405925,
+        "duration" : 203
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "95758d27e50040cf663451d6d6036e83"
+  } ]
+}
