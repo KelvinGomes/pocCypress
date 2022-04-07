@@ -1,8 +1,8 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
-    "uid" : "95758d27e50040cf663451d6d6036e83",
-    "name" : "PostAttributes",
+    "uid" : "7025d5b1e899ae53630ea24a6f643d8c",
+    "name" : "POST /attributes",
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -10,6 +10,17 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 3
+    }
+  }, {
+    "uid" : "c1ac9630a5c26370102f0a70a903e303",
+    "name" : "PUT /actions",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   } ]
 }

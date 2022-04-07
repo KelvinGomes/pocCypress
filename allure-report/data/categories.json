@@ -7,20 +7,20 @@
       "name" : "expected 201 to equal 200",
       "children" : [ {
         "name" : "Create attribute",
-        "uid" : "5fb470679895eb6f",
+        "uid" : "6980b2f85901757c",
         "parentUid" : "1bbac1f298b247fc5e693428bae28ee4",
         "status" : "failed",
         "time" : {
-          "start" : 1649260404273,
-          "stop" : 1649260405403,
-          "duration" : 1130
+          "start" : 1649360924878,
+          "stop" : 1649360926098,
+          "duration" : 1220
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 5,
-        "retriesStatusChange" : true,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
       "uid" : "1bbac1f298b247fc5e693428bae28ee4"

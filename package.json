@@ -6,6 +6,7 @@
   "scripts": {
     "test": "npm run cy:run || npm run posttest",
     "open": "cypress open",
+    "run": "cypress run -b chrome",
     "allure": "cypress run --env allure=true,allureResultsPath=cypress/allure_reports",
     "cy:run": "cypress run --env allure=true",
     "report": "cypress run --reporter reporters/custom.js",
@@ -24,10 +25,10 @@
   },
   "homepage": "https://github.com/KelvinGomes/pocCypress#readme",
   "dependencies": {
-    "@shelex/cypress-allure-plugin": "^2.26.5",
-    "cypress": "^9.5.1"
+    "@shelex/cypress-allure-plugin": "^2.26.5"
   },
   "devDependencies": {
+    "cypress": "^9.5.3",
     "cypress-mochawesome-reporter": "^3.0.0"
   }
 }

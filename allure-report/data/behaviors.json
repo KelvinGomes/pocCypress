@@ -3,53 +3,70 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "Create attribute",
-    "uid" : "5fb470679895eb6f",
+    "uid" : "6980b2f85901757c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1649260404273,
-      "stop" : 1649260405403,
-      "duration" : 1130
+      "start" : 1649360924878,
+      "stop" : 1649360926098,
+      "duration" : 1220
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 5,
-    "retriesStatusChange" : true,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "Create attribute with invalid token",
-    "uid" : "31090c29869ca10d",
+    "uid" : "4817a165a82cafcc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1649260405450,
-      "stop" : 1649260405647,
-      "duration" : 197
+      "start" : 1649360926207,
+      "stop" : 1649360926422,
+      "duration" : 215
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 5,
+    "retriesCount" : 1,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "Create attribute no name",
-    "uid" : "b5671e23e1b8da86",
+    "uid" : "9d0dbe4118662d5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1649260405722,
-      "stop" : 1649260405925,
-      "duration" : 203
+      "start" : 1649360926430,
+      "stop" : 1649360926628,
+      "duration" : 198
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 5,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Edit attribute",
+    "uid" : "edf2492a8c403894",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649360930017,
+      "stop" : 1649360930056,
+      "duration" : 39
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   } ]

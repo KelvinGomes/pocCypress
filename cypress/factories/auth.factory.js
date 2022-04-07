@@ -1,14 +1,15 @@
 
 export default {
-    
-    auth: function() {
+
+    auth: function () {
+
 
         var data = {
             login: 'root',
             password: 'governance',
-            token: '2c09ce73-6860-44d4-80fa-015e4920417d'
+            token: 'fed9fd50-ab64-419a-9548-3cf1187cbbaa'
         }
-        
+
         return data
     }
 }
