@@ -33,7 +33,7 @@ describe("POST /attributes", () => {
             method: "POST",
             url: "/api-governance/api/v3/attributes/",
             headers: {
-                "Sensedia-Auth": sensediaAuth,
+                "Sensedia-Auth": auth(),
             },
             body: {
                 name: attr.name,

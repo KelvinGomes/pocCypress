@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /// <reference types="cypress" />
 /// <reference types="@shelex/cypress-allure-plugin" />
 
@@ -34,7 +33,6 @@ module.exports = (on, config) => {
 // module.exports = (on, config) => {
 //   require('cypress-mochawesome-reporter/plugin')(on);
 // };
-=======
 const fs = require('fs-extra')
 const path = require('path')
 
@@ -48,4 +46,3 @@ module.exports = (on, config) => {
   const file = config.env.configFile || 'ephemeral'
   return getConfigurationByFile(file)
 }
->>>>>>> develop

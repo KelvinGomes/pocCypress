@@ -1,14 +1,9 @@
 {
-<<<<<<< HEAD
   "name": "pocCypress",
-=======
-  "name": "poc-cypress",
->>>>>>> develop
   "version": "1.0.0",
   "description": "Estudo Cypress testes de integração e E2E",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
     "test": "npm run cy:run || npm run posttest",
     "open": "cypress open",
     "run": "cypress run -b chrome",
@@ -16,14 +11,10 @@
     "cy:run": "cypress run --env allure=true",
     "report": "cypress run --reporter reporters/custom.js",
     "posttest": "npm run allure:report",
-    "allure:report": "allure generate allure-results --clean -o allure-report && allure open allure-report"
-=======
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:open": "cypress open",
+    "allure:report": "allure generate allure-results --clean -o allure-report && allure open allure-report",
     "cy:run:ephemeral": "cypress run --env configFile=ephemeral",
     "cy:run:testing": "cypress run --env configFile=testing",
     "cy:run:staging": "cypress run --env configFile=staging"
->>>>>>> develop
   },
   "repository": {
     "type": "git",
@@ -37,7 +28,6 @@
   },
   "homepage": "https://github.com/KelvinGomes/pocCypress#readme",
   "dependencies": {
-<<<<<<< HEAD
     "@shelex/cypress-allure-plugin": "^2.26.5"
   },
   "devDependencies": {
@@ -45,8 +35,3 @@
     "cypress-mochawesome-reporter": "^3.0.0"
   }
 }
-=======
-    "cypress": "^9.5.1"
-  }
-}
->>>>>>> develop
