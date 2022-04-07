@@ -1,5 +1,12 @@
 {
+<<<<<<< HEAD
     "baseUrl": "https://ephemeral-manager-governance.sensedia-eng.com/",
     "video": false
   
+=======
+    "video": false,
+    "defaultCommandTimeout": 5000,
+    "viewportWidth": 1280,
+    "viewportHeight": 720
+>>>>>>> develop
 }

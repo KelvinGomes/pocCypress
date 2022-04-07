@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://manager-testing.sensedia-eng.com/",
+    "env": {
+        "user": "root",
+        "password": "manager"
+    }
+}

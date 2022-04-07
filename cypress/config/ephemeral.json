@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://ephemeral-manager-governance.sensedia-eng.com/",
+    "env": {
+        "user": "root",
+        "password": "governance"
+    }
+}
