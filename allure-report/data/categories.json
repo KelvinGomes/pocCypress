@@ -7,7 +7,7 @@
       "name" : "expected 201 to equal 200",
       "children" : [ {
         "name" : "Create attribute",
-        "uid" : "6980b2f85901757c",
+        "uid" : "c26b9dfe1f201867",
         "parentUid" : "1bbac1f298b247fc5e693428bae28ee4",
         "status" : "failed",
         "time" : {

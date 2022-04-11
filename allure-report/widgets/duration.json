@@ -1,25 +1,5 @@
 [ {
-  "uid" : "6980b2f85901757c",
-  "name" : "Create attribute",
-  "time" : {
-    "start" : 1649360924878,
-    "stop" : 1649360926098,
-    "duration" : 1220
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "4817a165a82cafcc",
-  "name" : "Create attribute with invalid token",
-  "time" : {
-    "start" : 1649360926207,
-    "stop" : 1649360926422,
-    "duration" : 215
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9d0dbe4118662d5",
+  "uid" : "46e83a157260ceb3",
   "name" : "Create attribute no name",
   "time" : {
     "start" : 1649360926430,
@@ -29,7 +9,27 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "edf2492a8c403894",
+  "uid" : "5e5e4084d8087e04",
+  "name" : "Create attribute with invalid token",
+  "time" : {
+    "start" : 1649360926207,
+    "stop" : 1649360926422,
+    "duration" : 215
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c26b9dfe1f201867",
+  "name" : "Create attribute",
+  "time" : {
+    "start" : 1649360924878,
+    "stop" : 1649360926098,
+    "duration" : 1220
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "14bdaad5cb00aca4",
   "name" : "Edit attribute",
   "time" : {
     "start" : 1649360930017,

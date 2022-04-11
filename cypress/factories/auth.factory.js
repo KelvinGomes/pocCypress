@@ -1,15 +1,21 @@
-
 export default {
+  auth(cy) {
+    try {
+      let token;
+      cy.auth().then((value) => {
+        token = value;
+      });
 
-    auth: function () {
-
-
-        var data = {
-            login: 'root',
-            password: 'governance',
-            token: 'fed9fd50-ab64-419a-9548-3cf1187cbbaa'
-        }
-
-        return data
+      const data = {
+        login: 'root',
+        password: 'governance',
+        token,
+      };
+      console.log(JSON.stringify(data));
+      return data;
+    } catch (error) {
+      console.log(JSON.stringify(error));
     }
-}
+    return cy;
+  },
+};

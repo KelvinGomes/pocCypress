@@ -1,13 +1,12 @@
 {
-  "name": "pocCypress",
+  "name": "poc-cypress",
   "version": "1.0.0",
   "description": "Estudo Cypress testes de integração e E2E",
   "main": "index.js",
   "scripts": {
     "test": "npm run cy:run || npm run posttest",
     "open": "cypress open",
-    "run": "cypress run -b chrome",
-    "allure": "cypress run --env allure=true,allureResultsPath=cypress/allure_reports",
+    "run": "cypress run",
     "cy:run": "cypress run --env allure=true",
     "report": "cypress run --reporter reporters/custom.js",
     "posttest": "npm run allure:report",
@@ -32,6 +31,12 @@
   },
   "devDependencies": {
     "cypress": "^9.5.3",
-    "cypress-mochawesome-reporter": "^3.0.0"
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2"
   }
 }

@@ -24,18 +24,21 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 Cypress.Commands.add('auth', (login, password) => {
-    let sensediaAuth = null
-    cy.request({
-        method: 'POST',
-        url: 'api-manager/api/v3/login',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded', },
-        body: {
-            login: 'root',
-            password: 'governance'
-        }
-    }).then((res) => {
-        expect(res.status).to.be.equal(201)
-        const { code } = res.body
-        sensediaAuth = code
-    })
-})
+  let sensediaAuth = null;
+  cy.request({
+    method: 'POST',
+    url: 'api-manager/api/v3/login',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: {
+      login,
+      password,
+    },
+  }).then((res) => {
+    expect(res.status).to.be.equal(201);
+    const { code } = res.body;
+    sensediaAuth = code;
+  });
+  // eslint-disable-next-line no-console
+  console.log(`SensediaAuth: ${sensediaAuth}`);
+  return cy.wrap(sensediaAuth);
+});

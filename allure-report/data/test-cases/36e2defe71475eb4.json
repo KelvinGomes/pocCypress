@@ -1,0 +1,93 @@
+{
+  "uid" : "36e2defe71475eb4",
+  "name" : "Create attribute",
+  "fullName" : "Create attribute",
+  "historyId" : "298a370a85a46e45a8877965d1f5e0fe",
+  "time" : {
+    "start" : 1649353747803,
+    "stop" : 1649353748925,
+    "duration" : 1122
+  },
+  "status" : "failed",
+  "statusMessage" : "expected 201 to equal 200",
+  "statusTrace" : "AssertionError: expected 201 to equal 200\n    at Context.eval (https://ephemeral-manager-governance.sensedia-eng.com/__cypress/tests?p=cypress/integration/postAttributes.spec.js:217:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 201 to equal 200",
+    "statusTrace" : "AssertionError: expected 201 to equal 200\n    at Context.eval (https://ephemeral-manager-governance.sensedia-eng.com/__cypress/tests?p=cypress/integration/postAttributes.spec.js:217:32)",
+    "steps" : [ {
+      "name" : "POST 201 /api-governance/api/v3/attributes/",
+      "time" : {
+        "start" : 1649353747826,
+        "stop" : 1649353748714,
+        "duration" : 888
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **201** to equal **200**",
+      "time" : {
+        "start" : 1649353748924,
+        "stop" : 1649353748924,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "201"
+      }, {
+        "name" : "expected",
+        "value" : "200"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "136da983cc7f80e",
+      "name" : "postAttributes.spec.js:2022-04-07T17:49:08.754Z",
+      "source" : "136da983cc7f80e.png",
+      "type" : "image/png",
+      "size" : 63016
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "POST /attributes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "36e2defe71475eb4.json",
+  "parameterValues" : [ ]
+}

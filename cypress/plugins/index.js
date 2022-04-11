@@ -30,9 +30,7 @@ module.exports = (on, config) => {
     return config;
 };
 
-// module.exports = (on, config) => {
-//   require('cypress-mochawesome-reporter/plugin')(on);
-// };
+
 const fs = require('fs-extra')
 const path = require('path')
 
