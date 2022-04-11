@@ -2,7 +2,7 @@
 import postFixture from '../fixtures/postFixture.json'
 import authentication from "../support/authentication"
 
-describe('Exemplo', function () {
+describe('Example', function () {
     it('Create Attribute', async function () {
         const token = await authentication.getToken(Cypress.env('user'), Cypress.env('password'));
         postFixture.name = "Teste-" + Math.floor(Math.random() * 1000);
