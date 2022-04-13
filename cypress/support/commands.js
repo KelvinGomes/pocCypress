@@ -23,3 +23,19 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('getToken', (login, password) => {
+    cy.request({
+        method: 'POST',
+        url: 'api-manager/api/v3/login',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: {
+            login,
+            password,
+        },
+    }).then(res => {
+        expect(res.status).to.be.equal(201);
+        const { code } = res.body;
+        return cy.wrap(code);
+    })
+})
