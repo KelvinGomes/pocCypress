@@ -9,8 +9,8 @@ before(() => {
     })
 })
 
-describe('Example', function () {
-    it('Create Attribute', function () {
+describe('Example', () => {
+    it('Create Attribute', () => {
         exampleFactory.name = randomUtils.getName;
         cy.request({
             method: 'POST',
