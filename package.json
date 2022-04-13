@@ -10,10 +10,11 @@
     "cy:run": "cypress run --env allure=true",
     "report": "cypress run --reporter reporters/custom.js",
     "posttest": "npm run allure:report",
-    "allure:report": "allure generate allure-results --clean -o allure-report && allure open allure-report",
-    "cy:run:ephemeral": "cypress run --env configFile=ephemeral",
+    "allure:report": "allure generate allure-results/ --clean -o allure-report && allure open allure-report",
+    "cy:run:ephemeral": "cypress run --env configFile=ephemeral,allure=true allureResultsPath=/allure-results/",
     "cy:run:testing": "cypress run --env configFile=testing",
-    "cy:run:staging": "cypress run --env configFile=staging"
+    "cy:run:staging": "cypress run --env configFile=staging",
+    "cy:ephemeral": "npm run cy:run:ephemeral && npm run posttest"
   },
   "repository": {
     "type": "git",
@@ -30,7 +31,7 @@
     "@shelex/cypress-allure-plugin": "^2.26.5"
   },
   "devDependencies": {
-    "cypress": "^9.5.3",
+    "cypress": "^9.5.4",
     "eslint": "^8.13.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",

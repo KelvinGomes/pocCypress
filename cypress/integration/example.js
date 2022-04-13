@@ -1,22 +1,21 @@
 /* eslint-disable cypress/no-async-tests */
 /// <reference types = "cypress"/>
-import postFixture from '../fixtures/postFixture.json';
+import attributesFactory from '../factories/attributes.factory';
 import authentication from '../support/authentication';
 
 describe('Example', () => {
   it('Create Attribute', async () => {
     const token = await authentication.getToken(Cypress.env('user'), Cypress.env('password'));
-    postFixture.name = `Teste-${Math.floor(Math.random() * 1000)}`;
+    attributesFactory.name = `Teste-${Math.floor(Math.random() * 1000)}`;
     cy.request({
       method: 'POST',
       url: '/api-governance/api/v3/attributes/',
       headers: {
         'Sensedia-Auth': token,
       },
-      body: postFixture,
-    }).as('response');
-    cy.get('@response').then((res) => {
-      expect(res.status).to.be.equal(201);
+      body: { attributesFactory },
+    }).then((res) => {
+      expect(res.status).to.be.equal(200);
     });
   });
 });

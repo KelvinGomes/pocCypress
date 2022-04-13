@@ -21,26 +21,25 @@
 module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
-}
+};
 
 const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 
 module.exports = (on, config) => {
-    allureWriter(on, config);
-    return config;
+  allureWriter(on, config);
+  return config;
 };
 
-
-const fs = require('fs-extra')
-const path = require('path')
+const fs = require('fs-extra');
+const path = require('path');
 
 function getConfigurationByFile(file) {
-  const pathToConfigFile = path.resolve('cypress/config', `${file}.json`)
+  const pathToConfigFile = path.resolve('cypress/config', `${file}.json`);
 
-  return fs.readJson(pathToConfigFile)
+  return fs.readJson(pathToConfigFile);
 }
 
 module.exports = (on, config) => {
-  const file = config.env.configFile || 'ephemeral'
-  return getConfigurationByFile(file)
-}
+  const file = config.env.configFile || 'ephemeral';
+  return getConfigurationByFile(file);
+};
